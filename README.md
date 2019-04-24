@@ -11,4 +11,25 @@ In this work, the YOLO_V3 algorithm is trained from stratch using Pascal VOC dat
 ### Environment 
 * pytorch >= 1.0.0
 * python >= 3.6.0
+* numpy
+* opencv-python
+* pip3 install -r requirements.txt
+
+### download Pascal VOC Data 
+follow the instruction from this [link](https://pjreddie.com/darknet/yolo/)
+
+### download the weights
+1. download the pretrained weights "Dartnet_VOC_Weights" and "Dartnet_VOC_Weights_ini" from Google Drive or Baidu Drive
+2. Move downloaded both files to wegihts folder in this project.
+
+## Inference 
+* python Test.py --confidence 0.5 --reso 416
+* Refer to jupyter notebook "Yolo_V3_Train_Step_by_Step" for instruction
+
+## Training 
+* python Train.py --epochs 25 --batch_size 16 --img_size 416
+* Refer tp jupyter notebook "Yolo_V3_Train_Step_by_Step" for instruction 
+
+
+
 
