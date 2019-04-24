@@ -10,7 +10,7 @@ In this work, the YOLO_V3 algorithm is trained from stratch using Pascal VOC dat
 
 <img src = "https://github.com/xuexingyu24/Tutorial-on-Implementation-of-YOLO-V3-in-Pytorch/blob/master/imgs/timg_2.jpeg"  width="400" > <img src = "https://github.com/xuexingyu24/Tutorial-on-Implementation-of-YOLO-V3-in-Pytorch/blob/master/imgs/person_2.jpg"  width="400" >
 
-## Installation 
+## Requirement  
 
 ### Environment 
 * pytorch >= 1.0.0
@@ -30,11 +30,11 @@ In this work, the YOLO_V3 algorithm is trained from stratch using Pascal VOC dat
 
 ## Inference 
 * python Test.py --confidence 0.5 --reso 416
-* Refer to jupyter notebook "Yolo_V3_Train_Step_by_Step" for detailed instruction
+* Refer to jupyter notebook [Yolo_V3_Inference_Step_by_Step](https://github.com/xuexingyu24/Tutorial-on-Implementation-of-YOLO-V3-in-Pytorch/blob/master/Yolo_V3_Inference_Step_by_Step.ipynb)" for detailed instruction
 
 ## Training 
 * python Train.py --epochs 25 --batch_size 16 --img_size 416
-* Refer tp jupyter notebook "Yolo_V3_Train_Step_by_Step" for detailed instruction 
+* Refer tp jupyter notebook [Yolo_V3_Train_Step_by_Step](https://github.com/xuexingyu24/Tutorial-on-Implementation-of-YOLO-V3-in-Pytorch/blob/master/Yolo_V3_Train_Step_by_Step.ipynb) for detailed instruction 
 
 ## Reference 
 * [YOLO:Real-Time Object Detection](https://pjreddie.com/darknet/yolo/)
