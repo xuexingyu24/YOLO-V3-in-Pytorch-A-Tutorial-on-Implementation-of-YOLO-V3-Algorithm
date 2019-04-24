@@ -56,7 +56,7 @@ if __name__ == '__main__':
 
     model = Darknet()
     print("Loading network.....")
-    model.load_state_dict(torch.load('weights/Dartnet_VOC_Weights'))
+    model.load_state_dict(torch.load('weights/Dartnet_VOC_Weights', map_location=lambda storage, loc: storage))
     print("Network successfully loaded")
     model.image_size = args.reso
     inp_dim = int(model.image_size)
