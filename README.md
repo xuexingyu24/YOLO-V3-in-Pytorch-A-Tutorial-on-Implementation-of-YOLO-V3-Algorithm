@@ -21,7 +21,9 @@ In this work, the YOLO_V3 algorithm is trained from stratch using Pascal VOC dat
 ### download Pascal VOC Data 
 1. follow the instruction from [Yolo website](https://pjreddie.com/darknet/yolo/) or find the data from [link](https://pjreddie.com/projects/pascal-voc-dataset-mirror/)
 2. download the voc_label.py script to genetrate label files 
+
   wget https://pjreddie.com/media/files/voc_label.py
+  
   python voc_label.py
 
 ### download the weights
@@ -39,7 +41,7 @@ In this work, the YOLO_V3 algorithm is trained from stratch using Pascal VOC dat
 ## Reference 
 * [YOLO:Real-Time Object Detection](https://pjreddie.com/darknet/yolo/)
 * [paper](https://pjreddie.com/media/files/papers/YOLOv3.pdf)
-* YOLO tutorial (https://blog.paperspace.com/how-to-implement-a-yolo-object-detector-in-pytorch/): highly inspired by this post
+* [YOLO tutorial](https://blog.paperspace.com/how-to-implement-a-yolo-object-detector-in-pytorch/): highly inspired by this post
 
 
 
