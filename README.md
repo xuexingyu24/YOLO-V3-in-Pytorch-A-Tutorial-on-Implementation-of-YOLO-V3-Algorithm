@@ -30,7 +30,7 @@ In this work, the YOLO_V3 algorithm is trained from stratch using Pascal VOC dat
 
 ## Inference 
 * python Test.py --confidence 0.5 --reso 416
-* Refer to jupyter notebook [Yolo_V3_Inference_Step_by_Step](https://github.com/xuexingyu24/Tutorial-on-Implementation-of-YOLO-V3-in-Pytorch/blob/master/Yolo_V3_Inference_Step_by_Step.ipynb)" for detailed instruction
+* Refer to jupyter notebook [Yolo_V3_Inference_Step_by_Step](https://github.com/xuexingyu24/Tutorial-on-Implementation-of-YOLO-V3-in-Pytorch/blob/master/Yolo_V3_Inference_Step_by_Step.ipynb) for detailed instruction
 
 ## Training 
 * python Train.py --epochs 25 --batch_size 16 --img_size 416
