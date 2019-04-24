@@ -203,7 +203,7 @@ CUDA = torch.cuda.is_available()
 
 # load the model and weights for initialization
 model = Darknet()
-model.load_state_dict(torch.load(opt.weights_path))
+model.load_state_dict(torch.load(opt.weights_path, map_location=lambda storage, loc: storage))
 
 #  This section is to freeze all the network except the output three layers
 for name, param in model.named_parameters():
