@@ -6,6 +6,8 @@ Reading codes with little comments or help document could be a hugh headache esp
 
 In this work, the YOLO_V3 algorithm is trained from stratch using Pascal VOC dataset for demonstration purpose. Hopefully, after reading this tutorial, developers can build and train their own YOLO network using other datasets for various object detection tasks
 
+
+
 ## Installation 
 
 ### Environment 
@@ -29,6 +31,10 @@ follow the instruction from this [link](https://pjreddie.com/darknet/yolo/)
 ## Training 
 * python Train.py --epochs 25 --batch_size 16 --img_size 416
 * Refer tp jupyter notebook "Yolo_V3_Train_Step_by_Step" for instruction 
+
+## Reference 
+* [YOLO:Real-Time Object Detection](https://pjreddie.com/darknet/yolo/)
+* [paper](https://pjreddie.com/media/files/papers/YOLOv3.pdf)
 
 
 
