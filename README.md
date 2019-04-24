@@ -8,7 +8,7 @@ In this work, the YOLO_V3 algorithm is trained from stratch using Pascal VOC dat
 
 ### Example 
 
-<img src = "https://github.com/xuexingyu24/Tutorial-on-Implementation-of-YOLO-V3-in-Pytorch/blob/master/imgs/timg_2.jpeg"  width="400" > <img src = "https://github.com/xuexingyu24/Tutorial-on-Implementation-of-YOLO-V3-in-Pytorch/blob/master/imgs/person_2.jpg"  width="400" >
+<img src = "https://github.com/xuexingyu24/Tutorial-on-Implementation-of-YOLO-V3-in-Pytorch/blob/master/imgs/timg_2.jpeg"  width="420" > <img src = "https://github.com/xuexingyu24/Tutorial-on-Implementation-of-YOLO-V3-in-Pytorch/blob/master/imgs/person_2.jpg"  width="420" >
 
 ## Requirement  
 
@@ -22,9 +22,9 @@ In this work, the YOLO_V3 algorithm is trained from stratch using Pascal VOC dat
 1. follow the instruction from [Yolo website](https://pjreddie.com/darknet/yolo/) or find the data from [link](https://pjreddie.com/projects/pascal-voc-dataset-mirror/)
 2. download the voc_label.py script to genetrate label files 
 
-  wget https://pjreddie.com/media/files/voc_label.py
+    wget https://pjreddie.com/media/files/voc_label.py
   
-  python voc_label.py
+    python voc_label.py
 
 ### download the weights
 1. download the pretrained weights "Dartnet_VOC_Weights" and "Dartnet_VOC_Weights_ini" from [Baidu Drive](https://pan.baidu.com/s/1-O-jD0uU3OM6yNaUSLjAhw)
