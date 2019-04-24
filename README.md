@@ -2,9 +2,13 @@
 
 ## Overview 
 
-Reading codes with little comments could be a hugh headache especially for most new-entry machine learning reserach engineers. This repo is intended to offer a tutorial on how to implement YOLO_V3, one of the state of art deep learning algorithms for object detection. 
+Reading codes with little comments could be a hugh headache especially for most new-entry machine learning reserach engineers. This repo is intended to offer a tutorial on how to implement YOLO V3, one of the state of art deep learning algorithms for object detection. 
 
 In this work, the YOLO_V3 algorithm is trained from stratch using Pascal VOC dataset for demonstration purpose. Hopefully, after reading this tutorial, developers can build and train their own YOLO network using other datasets for various object detection tasks
+
+### Example 
+
+<img src = "https://github.com/xuexingyu24/Tutorial-on-Implementation-of-YOLO-V3-in-Pytorch/blob/master/imgs/timg_2.jpeg"  width="400" > <img src = "https://github.com/xuexingyu24/Tutorial-on-Implementation-of-YOLO-V3-in-Pytorch/blob/master/imgs/person_2.jpg"  width="400" >
 
 ## Installation 
 
@@ -15,13 +19,13 @@ In this work, the YOLO_V3 algorithm is trained from stratch using Pascal VOC dat
 * opencv-python
 
 ### download Pascal VOC Data 
-1. follow the instruction from this [link](https://pjreddie.com/darknet/yolo/) or find the data from [link](https://pjreddie.com/projects/pascal-voc-dataset-mirror/)
+1. follow the instruction from [Yolo website](https://pjreddie.com/darknet/yolo/) or find the data from [link](https://pjreddie.com/projects/pascal-voc-dataset-mirror/)
 2. download the voc_label.py script to genetrate label files 
   wget https://pjreddie.com/media/files/voc_label.py
   python voc_label.py
 
 ### download the weights
-1. download the pretrained weights "Dartnet_VOC_Weights" and "Dartnet_VOC_Weights_ini" from Google Drive or [Baidu Drive](https://pan.baidu.com/s/1-O-jD0uU3OM6yNaUSLjAhw)
+1. download the pretrained weights "Dartnet_VOC_Weights" and "Dartnet_VOC_Weights_ini" from [Baidu Drive](https://pan.baidu.com/s/1-O-jD0uU3OM6yNaUSLjAhw)
 2. Move downloaded both files to weights folder in this project.
 
 ## Inference 
